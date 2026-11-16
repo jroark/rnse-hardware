@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>nes-can.kicad_sch</source>
+    <date>2026-11-15T21:12:31</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RNS-E NES dual controller / fault-tolerant CAN</title>
+        <company/>
+        <rev>A</rev>
+        <date/>
+        <source>nes-can.kicad_sch</source>
+        <comment number="1" value="5 V ATtiny1616 + MCP2515 + TJA1055T; 100 kbit/s"/>
+        <comment number="2" value="Net-label interconnect; see README for bring-up and termination"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C1" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52110be0-4a2d-49bc-9c21-7e8ccbd0793b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C2" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>613aabf8-93f6-48f7-8d7a-ff6f8895b346</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C3" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>752db8e5-c1b8-4e0b-8837-bb10efacc0e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C4" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55f9ed5d-00fd-4ba3-91c2-17a1ebf0deb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>10u/50V</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C5" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44f696b3-0b87-446c-8aa1-054211e5b043</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>10u/16V</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C6" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b78f244-5ae1-46ea-989b-398351c3ec2b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C7" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e6c8bcf-bbf5-49e8-89d5-8d7df26620d8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C8" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf539df0-55bb-45ec-ab67-2da719c34104</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>27p</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C9" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b26b1ca5-beea-487a-ab25-414a69ad7d0d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>27p</value>
+      <footprint>nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="C10" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adb2c885-04bd-46cd-9ebe-1ec507853902</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SS16</value>
+      <footprint>nes-can:D_SMA</footprint>
+      <fields>
+        <field name="Footprint">nes-can:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="D1" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d27a684-f9d9-4537-9ef4-e1a68bbeb482</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>SMBJ18A</value>
+      <footprint>nes-can:D_SMB</footprint>
+      <fields>
+        <field name="Footprint">nes-can:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="D2" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42b8b4b9-be7a-43c3-b3f6-56ddb63097f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>POWER green</value>
+      <footprint>nes-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="D3" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98695504-76d5-4631-b6a6-166252ff085c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>ACT amber</value>
+      <footprint>nes-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="D4" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aedd97eb-edb8-43a2-b4f7-58efdffb0f10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>PESD5V0S1BA</value>
+      <footprint>nes-can:D_SOD-323</footprint>
+      <fields>
+        <field name="Footprint">nes-can:D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="D5" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa1961c4-afc4-473c-9f4e-78db5139c4ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>PESD5V0S1BA</value>
+      <footprint>nes-can:D_SOD-323</footprint>
+      <fields>
+        <field name="Footprint">nes-can:D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="D6" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67157d52-6b9e-48c4-9403-9afa30dd5b42</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D7">
+      <value>PESD5V0S1BA</value>
+      <footprint>nes-can:D_SOD-323</footprint>
+      <fields>
+        <field name="Footprint">nes-can:D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="D7" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cec58910-d526-42ba-9029-a45734791494</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D8">
+      <value>PESD5V0S1BA</value>
+      <footprint>nes-can:D_SOD-323</footprint>
+      <fields>
+        <field name="Footprint">nes-can:D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="D8" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>364f3aa8-a364-41ec-8098-0bd7ec6de1dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>0.5A / 63V</value>
+      <footprint>nes-can:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="F1" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37f9373b-1068-4fb3-860e-4048b13ce0f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>PTC 0.20A</value>
+      <footprint>nes-can:Fuse_1812_4532Metric</footprint>
+      <fields>
+        <field name="Footprint">nes-can:Fuse_1812_4532Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="F2" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c8e6b4e-cfb5-400b-a1d3-85ebf1938712</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F3">
+      <value>PTC 0.20A</value>
+      <footprint>nes-can:Fuse_1812_4532Metric</footprint>
+      <fields>
+        <field name="Footprint">nes-can:Fuse_1812_4532Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="F3" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c51dc8d-271b-489e-930b-862d8d98acd6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>VEHICLE</value>
+      <footprint>nes-can:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">nes-can:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="J1" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>342265c7-893e-4119-a5c0-6ed01e27d9fa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>NES PLAYER 1</value>
+      <footprint>nes-can:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">nes-can:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="J2" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b524da5e-9c5b-4ab2-b85b-07e079678873</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>NES PLAYER 2</value>
+      <footprint>nes-can:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">nes-can:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="J3" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aa01798-b47b-4449-a751-eee9787d930f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>UPDI</value>
+      <footprint>nes-can:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">nes-can:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="J4" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f77305e9-5d1c-4647-8253-3fa87989db3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R1" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0875a38-a09a-4a1f-8e14-02dc64aeeffd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R2" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a59155f-b061-49fd-b0a2-197d07457047</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R3" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa4216e1-6d76-44b0-b8b4-598db5022f47</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R4" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e63a5d8c-9447-4a59-926e-7fb0ffe5aa89</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R5" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6304b04c-5599-46cf-9496-15c079d6fa79</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R6" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3bc0e82-a962-49e9-aff5-78069636fcbf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R7" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4291f6c6-b05d-4f21-9145-466db468079a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R8" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8fe16f2-51de-48bf-88a9-9ea06197b624</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R9" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1f36a15-5c14-4dea-a934-c0351466c926</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R10" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7459031-6a7f-4430-9f50-92ec45ec9182</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R11" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>727c8887-3d7d-4dd1-a463-0ccca713ca9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R12" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03025d58-5a2f-49f7-bdd5-46063be392a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>5.6k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R13" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3815aaf9-d7d1-4dea-8e6b-12af39f16acf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>5.6k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R14" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ac4d45a-7b08-4029-9f0b-d0d87f4193c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R15" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b19396a7-664b-4aff-a634-6fa43f2c6bcc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R16" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac9aaac0-f625-4c04-b1cb-8798e29252a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R17" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0748e9ae-aac5-411a-a98e-32a99fd26af1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R18" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90d5e57a-8f11-40dc-9d97-2230f54fa4a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R19" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6c8ba46-d15b-473c-aeb9-8790fa8f7e6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>100</value>
+      <footprint>nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="R20" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17a3a36f-0331-49bd-8b9e-45d94f7283f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>5V</value>
+      <footprint>nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Footprint">nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="TP1" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5afd12c1-7476-4920-9ed6-566030a15a88</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Footprint">nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="TP2" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40325f5d-9e49-44e8-99eb-47dc7def4b97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>CAN_TX</value>
+      <footprint>nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Footprint">nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="TP3" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b5b8f69-8ede-4eb0-804e-5922edf472cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>CAN_RX</value>
+      <footprint>nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Footprint">nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="TP4" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7aca5473-5e79-48ae-bcf6-d83bf96c9907</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny1616-SNR</value>
+      <footprint>nes-can:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">nes-can:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="U1" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>907c3153-4452-4ce6-98f3-57f2b1122f8c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>MCP2515-I/SO</value>
+      <footprint>nes-can:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">nes-can:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="U2" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a250d7fe-b134-4e20-bd59-d17af1ea97a9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TJA1055T/2Z</value>
+      <footprint>nes-can:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">nes-can:SOIC-14_3.9x8.7mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="U3" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6baa21c4-8eba-4404-b422-d088e02f4bae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>TSR 1-2450</value>
+      <footprint>nes-can:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <fields>
+        <field name="Footprint">nes-can:Converter_DCDC_TRACO_TSR-1_THT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="U4" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4a6ad5c-8708-4e5a-8287-3360c281e8b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz CL18pF</value>
+      <footprint>nes-can:Crystal_HC49-4H_Vertical</footprint>
+      <fields>
+        <field name="Footprint">nes-can:Crystal_HC49-4H_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="nes-can" part="Y1" description=""/>
+      <property name="Sheetname" value="nes-can"/>
+      <property name="Sheetfile" value="nes-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f90df46-73f5-4008-9795-b12d43d31b20</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="nes-can" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="C10">
+      <fields>
+        <field name="Reference">C10</field>
+        <field name="Value">27p</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">10u/50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">10u/16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="C9">
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">27p</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">SS16</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">SMBJ18A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="D3">
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">POWER green</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="D4">
+      <fields>
+        <field name="Reference">D4</field>
+        <field name="Value">ACT amber</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="D5">
+      <fields>
+        <field name="Reference">D5</field>
+        <field name="Value">PESD5V0S1BA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="D6">
+      <fields>
+        <field name="Reference">D6</field>
+        <field name="Value">PESD5V0S1BA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="D7">
+      <fields>
+        <field name="Reference">D7</field>
+        <field name="Value">PESD5V0S1BA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="D8">
+      <fields>
+        <field name="Reference">D8</field>
+        <field name="Value">PESD5V0S1BA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="F1">
+      <fields>
+        <field name="Reference">F1</field>
+        <field name="Value">0.5A / 63V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="F2">
+      <fields>
+        <field name="Reference">F2</field>
+        <field name="Value">PTC 0.20A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="F3">
+      <fields>
+        <field name="Reference">F3</field>
+        <field name="Value">PTC 0.20A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">VEHICLE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V_switched" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="CANH" type="passive"/>
+        <pin num="4" name="CANL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">NES PLAYER 1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="LATCH" type="passive"/>
+        <pin num="4" name="CLOCK" type="passive"/>
+        <pin num="5" name="DATA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">NES PLAYER 2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="LATCH" type="passive"/>
+        <pin num="4" name="CLOCK" type="passive"/>
+        <pin num="5" name="DATA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">UPDI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VTREF_5V" type="passive"/>
+        <pin num="2" name="UPDI" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">5.6k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">5.6k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R19">
+      <fields>
+        <field name="Reference">R19</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R20">
+      <fields>
+        <field name="Reference">R20</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="TP1">
+      <fields>
+        <field name="Reference">TP1</field>
+        <field name="Value">5V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="TP2">
+      <fields>
+        <field name="Reference">TP2</field>
+        <field name="Value">GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="TP3">
+      <fields>
+        <field name="Reference">TP3</field>
+        <field name="Value">CAN_TX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="TP4">
+      <fields>
+        <field name="Reference">TP4</field>
+        <field name="Value">CAN_RX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">ATtiny1616-SNR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PA4_/_SS" type="bidirectional"/>
+        <pin num="3" name="PA5" type="bidirectional"/>
+        <pin num="4" name="PA6" type="bidirectional"/>
+        <pin num="5" name="PA7" type="bidirectional"/>
+        <pin num="6" name="PB5" type="bidirectional"/>
+        <pin num="7" name="PB4" type="bidirectional"/>
+        <pin num="8" name="PB3" type="bidirectional"/>
+        <pin num="9" name="PB2" type="bidirectional"/>
+        <pin num="10" name="PB1" type="bidirectional"/>
+        <pin num="11" name="PB0" type="bidirectional"/>
+        <pin num="12" name="PC0" type="bidirectional"/>
+        <pin num="13" name="PC1" type="bidirectional"/>
+        <pin num="14" name="PC2" type="bidirectional"/>
+        <pin num="15" name="PC3" type="bidirectional"/>
+        <pin num="16" name="PA0_/_UPDI" type="bidirectional"/>
+        <pin num="17" name="PA1_/_MOSI" type="bidirectional"/>
+        <pin num="18" name="PA2_/_MISO" type="bidirectional"/>
+        <pin num="19" name="PA3_/_SCK" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">MCP2515-I/SO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="TXCAN" type="output"/>
+        <pin num="2" name="RXCAN" type="input"/>
+        <pin num="3" name="CLKOUT" type="output"/>
+        <pin num="4" name="TX0RTS_N" type="input"/>
+        <pin num="5" name="TX1RTS_N" type="input"/>
+        <pin num="6" name="TX2RTS_N" type="input"/>
+        <pin num="7" name="OSC2" type="input"/>
+        <pin num="8" name="OSC1" type="input"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="RX1BF_N" type="output"/>
+        <pin num="11" name="RX0BF_N" type="output"/>
+        <pin num="12" name="INT_N" type="output"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SI" type="input"/>
+        <pin num="15" name="SO" type="output"/>
+        <pin num="16" name="CS_N" type="input"/>
+        <pin num="17" name="RESET_N" type="input"/>
+        <pin num="18" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="U3">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">TJA1055T/2Z</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="INH" type="output"/>
+        <pin num="2" name="TXD" type="input"/>
+        <pin num="3" name="RXD" type="output"/>
+        <pin num="4" name="ERR_N" type="output"/>
+        <pin num="5" name="STB" type="input"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="WAKE_N" type="input"/>
+        <pin num="8" name="RTH" type="passive"/>
+        <pin num="9" name="RTL" type="passive"/>
+        <pin num="10" name="VCC" type="power_in"/>
+        <pin num="11" name="CANH" type="passive"/>
+        <pin num="12" name="CANL" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="BAT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="U4">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">TSR 1-2450</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+5V" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="nes-can" part="Y1">
+      <fields>
+        <field name="Reference">Y1</field>
+        <field name="Value">16MHz CL18pF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="nes-can">
+      <uri>${KIPRJMOD}/nes-can.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="VTREF_5V_1" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="VDD_18" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="TX0RTS_N_4" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="TX1RTS_N_5" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="TX2RTS_N_6" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="VCC_10" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="+5V_3" pintype="power_out"/>
+    </net>
+    <net code="2" name="/12V_FUSED" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/12V_SW" class="Default">
+      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="+12V_switched_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/ACT_ANODE" class="Default">
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/ACT_LED" class="Default">
+      <node ref="R18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PB0_11" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/CANH" class="Default">
+      <node ref="J1" pin="3" pinfunction="CANH_3" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="CANH_11" pintype="passive"/>
+    </net>
+    <net code="7" name="/CANL" class="Default">
+      <node ref="J1" pin="4" pinfunction="CANL_4" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="CANL_12" pintype="passive"/>
+    </net>
+    <net code="8" name="/CAN_EN" class="Default">
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PB3_8" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="EN_6" pintype="input"/>
+    </net>
+    <net code="9" name="/CAN_ERR_N" class="Default">
+      <node ref="U1" pin="10" pinfunction="PB1_10" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="ERR_N_4" pintype="output"/>
+    </net>
+    <net code="10" name="/CAN_INT_N" class="Default">
+      <node ref="U1" pin="3" pinfunction="PA5_3" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="INT_N_12" pintype="output"/>
+    </net>
+    <net code="11" name="/CAN_RESET_N" class="Default">
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="RESET_N_17" pintype="input"/>
+    </net>
+    <net code="12" name="/CAN_RX" class="Default">
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="RXCAN_2" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="RXD_3" pintype="output"/>
+    </net>
+    <net code="13" name="/CAN_STB" class="Default">
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PB2_9" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="STB_5" pintype="input"/>
+    </net>
+    <net code="14" name="/CAN_TX" class="Default">
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="TXCAN_1" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="TXD_2" pintype="input"/>
+    </net>
+    <net code="15" name="/CS_N" class="Default">
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PA4_/_SS_2" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="CS_N_16" pintype="input"/>
+    </net>
+    <net code="16" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="K2_2" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="K2_2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="K2_2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="K2_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="GND_20" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="VSS_9" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="17" name="/K_5V" class="Default">
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="+5V_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/K_CLK" class="Default">
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PA6_4" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/K_CLK_EXT" class="Default">
+      <node ref="D6" pin="1" pinfunction="K1_1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="CLOCK_4" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="20" name="/K_DATA" class="Default">
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PA7_5" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/K_DATA_EXT" class="Default">
+      <node ref="D5" pin="1" pinfunction="K1_1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="DATA_5" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="22" name="/K_LATCH" class="Default">
+      <node ref="R19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PC2_14" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/K_LATCH_EXT" class="Default">
+      <node ref="J2" pin="3" pinfunction="LATCH_3" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="24" name="/MISO" class="Default">
+      <node ref="U1" pin="18" pinfunction="PA2_/_MISO_18" pintype="bidirectional"/>
+      <node ref="U2" pin="15" pinfunction="SO_15" pintype="output"/>
+    </net>
+    <net code="25" name="/MOSI" class="Default">
+      <node ref="U1" pin="17" pinfunction="PA1_/_MOSI_17" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="SI_14" pintype="input"/>
+    </net>
+    <net code="26" name="/M_5V" class="Default">
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="+5V_1" pintype="passive"/>
+    </net>
+    <net code="27" name="/M_CLK" class="Default">
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PB5_6" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/M_CLK_EXT" class="Default">
+      <node ref="D8" pin="1" pinfunction="K1_1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="CLOCK_4" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="29" name="/M_DATA" class="Default">
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PB4_7" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/M_DATA_EXT" class="Default">
+      <node ref="D7" pin="1" pinfunction="K1_1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="DATA_5" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="31" name="/M_LATCH" class="Default">
+      <node ref="R20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PC3_15" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/M_LATCH_EXT" class="Default">
+      <node ref="J3" pin="3" pinfunction="LATCH_3" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="33" name="/OSC1" class="Default">
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="OSC1_8" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="34" name="/OSC2" class="Default">
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="OSC2_7" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="35" name="/PWR_LED" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="36" name="/RTH" class="Default">
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="RTH_8" pintype="passive"/>
+    </net>
+    <net code="37" name="/RTL" class="Default">
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="RTL_9" pintype="passive"/>
+    </net>
+    <net code="38" name="/SCK" class="Default">
+      <node ref="U1" pin="19" pinfunction="PA3_/_SCK_19" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="SCK_13" pintype="input"/>
+    </net>
+    <net code="39" name="/UPDI" class="Default">
+      <node ref="J4" pin="2" pinfunction="UPDI_2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PA0_/_UPDI_16" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/VBAT" class="Default">
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="BAT_14" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+    </net>
+    <net code="41" name="/WAKE_N" class="Default">
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="WAKE_N_7" pintype="input"/>
+    </net>
+    <net code="42" name="unconnected-(U1-PC0-Pad12)" class="Default">
+      <node ref="U1" pin="12" pinfunction="PC0_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-PC1-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="PC1_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U2-CLKOUT-Pad3)" class="Default">
+      <node ref="U2" pin="3" pinfunction="CLKOUT_3" pintype="output+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U2-RX0BF_N-Pad11)" class="Default">
+      <node ref="U2" pin="11" pinfunction="RX0BF_N_11" pintype="output+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U2-RX1BF_N-Pad10)" class="Default">
+      <node ref="U2" pin="10" pinfunction="RX1BF_N_10" pintype="output+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U3-INH-Pad1)" class="Default">
+      <node ref="U3" pin="1" pinfunction="INH_1" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

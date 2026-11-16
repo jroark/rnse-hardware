@@ -1,0 +1,1130 @@
+[
+  {
+    "ref": "J1",
+    "val": "VEHICLE",
+    "fp": "nes-can:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal",
+    "nets": {
+      "1": "12V_SW",
+      "2": "GND",
+      "3": "CANH",
+      "4": "CANL"
+    },
+    "xy": [
+      109.5,
+      139
+    ],
+    "rot": 0,
+    "names": {
+      "1": "+12V switched",
+      "2": "GND",
+      "3": "CANH",
+      "4": "CANL"
+    },
+    "mpn": "1715048",
+    "note": "",
+    "id": "342265c7-893e-4119-a5c0-6ed01e27d9fa"
+  },
+  {
+    "ref": "J2",
+    "val": "NES PLAYER 1",
+    "fp": "nes-can:PinHeader_1x05_P2.54mm_Vertical",
+    "nets": {
+      "1": "K_5V",
+      "2": "GND",
+      "3": "K_LATCH_EXT",
+      "4": "K_CLK_EXT",
+      "5": "K_DATA_EXT"
+    },
+    "xy": [
+      113,
+      103
+    ],
+    "rot": 90,
+    "names": {
+      "1": "+5V",
+      "2": "GND",
+      "3": "LATCH",
+      "4": "CLOCK",
+      "5": "DATA"
+    },
+    "mpn": "61300511121",
+    "note": "Wired NES female extension socket",
+    "id": "b524da5e-9c5b-4ab2-b85b-07e079678873"
+  },
+  {
+    "ref": "J3",
+    "val": "NES PLAYER 2",
+    "fp": "nes-can:PinHeader_1x05_P2.54mm_Vertical",
+    "nets": {
+      "1": "M_5V",
+      "2": "GND",
+      "3": "M_LATCH_EXT",
+      "4": "M_CLK_EXT",
+      "5": "M_DATA_EXT"
+    },
+    "xy": [
+      130,
+      103
+    ],
+    "rot": 90,
+    "names": {
+      "1": "+5V",
+      "2": "GND",
+      "3": "LATCH",
+      "4": "CLOCK",
+      "5": "DATA"
+    },
+    "mpn": "61300511121",
+    "note": "Wired NES female extension socket",
+    "id": "0aa01798-b47b-4449-a751-eee9787d930f"
+  },
+  {
+    "ref": "J4",
+    "val": "UPDI",
+    "fp": "nes-can:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "5V",
+      "2": "UPDI",
+      "3": "GND"
+    },
+    "xy": [
+      160,
+      119
+    ],
+    "rot": 0,
+    "names": {
+      "1": "VTREF 5V",
+      "2": "UPDI",
+      "3": "GND"
+    },
+    "mpn": "61300311121",
+    "note": "",
+    "id": "f77305e9-5d1c-4647-8253-3fa87989db3f"
+  },
+  {
+    "ref": "U1",
+    "val": "ATtiny1616-SNR",
+    "fp": "nes-can:SOIC-20W_7.5x12.8mm_P1.27mm",
+    "nets": {
+      "1": "5V",
+      "2": "CS_N",
+      "3": "CAN_INT_N",
+      "4": "K_CLK",
+      "5": "K_DATA",
+      "6": "M_CLK",
+      "7": "M_DATA",
+      "8": "CAN_EN",
+      "9": "CAN_STB",
+      "10": "CAN_ERR_N",
+      "11": "ACT_LED",
+      "12": null,
+      "13": null,
+      "14": "K_LATCH",
+      "15": "M_LATCH",
+      "16": "UPDI",
+      "17": "MOSI",
+      "18": "MISO",
+      "19": "SCK",
+      "20": "GND"
+    },
+    "xy": [
+      113,
+      124
+    ],
+    "rot": 0,
+    "names": {
+      "1": "VDD",
+      "2": "PA4 / SS",
+      "3": "PA5",
+      "4": "PA6",
+      "5": "PA7",
+      "6": "PB5",
+      "7": "PB4",
+      "8": "PB3",
+      "9": "PB2",
+      "10": "PB1",
+      "11": "PB0",
+      "12": "PC0",
+      "13": "PC1",
+      "14": "PC2",
+      "15": "PC3",
+      "16": "PA0 / UPDI",
+      "17": "PA1 / MOSI",
+      "18": "PA2 / MISO",
+      "19": "PA3 / SCK",
+      "20": "GND"
+    },
+    "mpn": "ATTINY1616-SNR",
+    "note": "",
+    "id": "907c3153-4452-4ce6-98f3-57f2b1122f8c"
+  },
+  {
+    "ref": "U2",
+    "val": "MCP2515-I/SO",
+    "fp": "nes-can:SOIC-18W_7.5x11.6mm_P1.27mm",
+    "nets": {
+      "1": "CAN_TX",
+      "2": "CAN_RX",
+      "3": null,
+      "4": "5V",
+      "5": "5V",
+      "6": "5V",
+      "7": "OSC2",
+      "8": "OSC1",
+      "9": "GND",
+      "10": null,
+      "11": null,
+      "12": "CAN_INT_N",
+      "13": "SCK",
+      "14": "MOSI",
+      "15": "MISO",
+      "16": "CS_N",
+      "17": "CAN_RESET_N",
+      "18": "5V"
+    },
+    "xy": [
+      132,
+      124
+    ],
+    "rot": 0,
+    "names": {
+      "1": "TXCAN",
+      "2": "RXCAN",
+      "3": "CLKOUT",
+      "4": "TX0RTS_N",
+      "5": "TX1RTS_N",
+      "6": "TX2RTS_N",
+      "7": "OSC2",
+      "8": "OSC1",
+      "9": "VSS",
+      "10": "RX1BF_N",
+      "11": "RX0BF_N",
+      "12": "INT_N",
+      "13": "SCK",
+      "14": "SI",
+      "15": "SO",
+      "16": "CS_N",
+      "17": "RESET_N",
+      "18": "VDD"
+    },
+    "mpn": "MCP2515-I/SO",
+    "note": "",
+    "id": "a250d7fe-b134-4e20-bd59-d17af1ea97a9"
+  },
+  {
+    "ref": "U3",
+    "val": "TJA1055T/2Z",
+    "fp": "nes-can:SOIC-14_3.9x8.7mm_P1.27mm",
+    "nets": {
+      "1": null,
+      "2": "CAN_TX",
+      "3": "CAN_RX",
+      "4": "CAN_ERR_N",
+      "5": "CAN_STB",
+      "6": "CAN_EN",
+      "7": "WAKE_N",
+      "8": "RTH",
+      "9": "RTL",
+      "10": "5V",
+      "11": "CANH",
+      "12": "CANL",
+      "13": "GND",
+      "14": "VBAT"
+    },
+    "xy": [
+      150,
+      133
+    ],
+    "rot": 0,
+    "names": {
+      "1": "INH",
+      "2": "TXD",
+      "3": "RXD",
+      "4": "ERR_N",
+      "5": "STB",
+      "6": "EN",
+      "7": "WAKE_N",
+      "8": "RTH",
+      "9": "RTL",
+      "10": "VCC",
+      "11": "CANH",
+      "12": "CANL",
+      "13": "GND",
+      "14": "BAT"
+    },
+    "mpn": "TJA1055T/2Z",
+    "note": "",
+    "id": "6baa21c4-8eba-4404-b422-d088e02f4bae"
+  },
+  {
+    "ref": "U4",
+    "val": "TSR 1-2450",
+    "fp": "nes-can:Converter_DCDC_TRACO_TSR-1_THT",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND",
+      "3": "5V"
+    },
+    "xy": [
+      150,
+      106
+    ],
+    "rot": 0,
+    "names": {
+      "1": "VIN",
+      "2": "GND",
+      "3": "+5V"
+    },
+    "mpn": "TSR 1-2450",
+    "note": "",
+    "id": "e4a6ad5c-8708-4e5a-8287-3360c281e8b8"
+  },
+  {
+    "ref": "F1",
+    "val": "0.5A / 63V",
+    "fp": "nes-can:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+    "nets": {
+      "1": "12V_SW",
+      "2": "12V_FUSED"
+    },
+    "xy": [
+      143.0,
+      141.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "0466.500NR",
+    "note": "",
+    "id": "37f9373b-1068-4fb3-860e-4048b13ce0f1"
+  },
+  {
+    "ref": "D1",
+    "val": "SS16",
+    "fp": "nes-can:D_SMA",
+    "nets": {
+      "1": "VBAT",
+      "2": "12V_FUSED"
+    },
+    "xy": [
+      151.0,
+      141.0
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "mpn": "SS16-E3/61T",
+    "note": "",
+    "id": "0d27a684-f9d9-4537-9ef4-e1a68bbeb482"
+  },
+  {
+    "ref": "D2",
+    "val": "SMBJ18A",
+    "fp": "nes-can:D_SMB",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "xy": [
+      157.0,
+      140.0
+    ],
+    "rot": 90,
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "mpn": "SMBJ18A",
+    "note": "",
+    "id": "42b8b4b9-be7a-43c3-b3f6-56ddb63097f7"
+  },
+  {
+    "ref": "F2",
+    "val": "PTC 0.20A",
+    "fp": "nes-can:Fuse_1812_4532Metric",
+    "nets": {
+      "1": "5V",
+      "2": "K_5V"
+    },
+    "xy": [
+      105.0,
+      113.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "1812L020/60DR",
+    "note": "",
+    "id": "6c8e6b4e-cfb5-400b-a1d3-85ebf1938712"
+  },
+  {
+    "ref": "F3",
+    "val": "PTC 0.20A",
+    "fp": "nes-can:Fuse_1812_4532Metric",
+    "nets": {
+      "1": "5V",
+      "2": "M_5V"
+    },
+    "xy": [
+      135.0,
+      113.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "1812L020/60DR",
+    "note": "",
+    "id": "4c51dc8d-271b-489e-930b-862d8d98acd6"
+  },
+  {
+    "ref": "R1",
+    "val": "100",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "K_DATA_EXT",
+      "2": "K_DATA"
+    },
+    "xy": [
+      104.0,
+      116.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "b0875a38-a09a-4a1f-8e14-02dc64aeeffd"
+  },
+  {
+    "ref": "R2",
+    "val": "100",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "K_CLK_EXT",
+      "2": "K_CLK"
+    },
+    "xy": [
+      104.0,
+      119.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "8a59155f-b061-49fd-b0a2-197d07457047"
+  },
+  {
+    "ref": "R3",
+    "val": "100",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "M_DATA_EXT",
+      "2": "M_DATA"
+    },
+    "xy": [
+      131.0,
+      116.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "fa4216e1-6d76-44b0-b8b4-598db5022f47"
+  },
+  {
+    "ref": "R4",
+    "val": "100",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "M_CLK_EXT",
+      "2": "M_CLK"
+    },
+    "xy": [
+      135.0,
+      116.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "e63a5d8c-9447-4a59-926e-7fb0ffe5aa89"
+  },
+  {
+    "ref": "R5",
+    "val": "4.7k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "K_DATA"
+    },
+    "xy": [
+      104.0,
+      122.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-074K7L",
+    "note": "",
+    "id": "6304b04c-5599-46cf-9496-15c079d6fa79"
+  },
+  {
+    "ref": "R6",
+    "val": "4.7k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "K_CLK"
+    },
+    "xy": [
+      104.0,
+      125.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-074K7L",
+    "note": "",
+    "id": "e3bc0e82-a962-49e9-aff5-78069636fcbf"
+  },
+  {
+    "ref": "R7",
+    "val": "4.7k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "M_DATA"
+    },
+    "xy": [
+      140.5,
+      113.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-074K7L",
+    "note": "",
+    "id": "4291f6c6-b05d-4f21-9145-466db468079a"
+  },
+  {
+    "ref": "R8",
+    "val": "4.7k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "M_CLK"
+    },
+    "xy": [
+      139.5,
+      117.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "RC0805FR-074K7L",
+    "note": "",
+    "id": "f8fe16f2-51de-48bf-88a9-9ea06197b624"
+  },
+  {
+    "ref": "R9",
+    "val": "10k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "CS_N"
+    },
+    "xy": [
+      120.0,
+      115.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "e1f36a15-5c14-4dea-a934-c0351466c926"
+  },
+  {
+    "ref": "R10",
+    "val": "10k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "CAN_RESET_N"
+    },
+    "xy": [
+      139.5,
+      121.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "a7459031-6a7f-4430-9f50-92ec45ec9182"
+  },
+  {
+    "ref": "R11",
+    "val": "10k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "CAN_EN",
+      "2": "GND"
+    },
+    "xy": [
+      143.0,
+      125.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "727c8887-3d7d-4dd1-a463-0ccca713ca9c"
+  },
+  {
+    "ref": "R12",
+    "val": "10k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "CAN_STB",
+      "2": "GND"
+    },
+    "xy": [
+      143.0,
+      128.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "03025d58-5a2f-49f7-bdd5-46063be392a1"
+  },
+  {
+    "ref": "R13",
+    "val": "5.6k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "RTH",
+      "2": "CANH"
+    },
+    "xy": [
+      150.0,
+      126.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-075K6L",
+    "note": "",
+    "id": "3815aaf9-d7d1-4dea-8e6b-12af39f16acf"
+  },
+  {
+    "ref": "R14",
+    "val": "5.6k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "RTL",
+      "2": "CANL"
+    },
+    "xy": [
+      157.0,
+      128.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-075K6L",
+    "note": "",
+    "id": "5ac4d45a-7b08-4029-9f0b-d0d87f4193c8"
+  },
+  {
+    "ref": "R15",
+    "val": "10k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "VBAT",
+      "2": "WAKE_N"
+    },
+    "xy": [
+      157.0,
+      132.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "b19396a7-664b-4aff-a634-6fa43f2c6bcc"
+  },
+  {
+    "ref": "R16",
+    "val": "10k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "CAN_TX"
+    },
+    "xy": [
+      122.0,
+      129.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "ac9aaac0-f625-4c04-b1cb-8798e29252a4"
+  },
+  {
+    "ref": "R17",
+    "val": "1k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "PWR_LED"
+    },
+    "xy": [
+      155.0,
+      116.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-071KL",
+    "note": "",
+    "id": "0748e9ae-aac5-411a-a98e-32a99fd26af1"
+  },
+  {
+    "ref": "R18",
+    "val": "1k",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "ACT_LED",
+      "2": "ACT_ANODE"
+    },
+    "xy": [
+      120.0,
+      132.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-071KL",
+    "note": "",
+    "id": "90d5e57a-8f11-40dc-9d97-2230f54fa4a1"
+  },
+  {
+    "ref": "D3",
+    "val": "POWER green",
+    "fp": "nes-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "nets": {
+      "1": "GND",
+      "2": "PWR_LED"
+    },
+    "xy": [
+      155.0,
+      119.0
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "mpn": "LTST-C170KGKT",
+    "note": "",
+    "id": "98695504-76d5-4631-b6a6-166252ff085c"
+  },
+  {
+    "ref": "D4",
+    "val": "ACT amber",
+    "fp": "nes-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "nets": {
+      "1": "GND",
+      "2": "ACT_ANODE"
+    },
+    "xy": [
+      129.0,
+      139.0
+    ],
+    "rot": 90,
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "mpn": "LTST-C170KFKT",
+    "note": "",
+    "id": "aedd97eb-edb8-43a2-b4f7-58efdffb0f10"
+  },
+  {
+    "ref": "D5",
+    "val": "PESD5V0S1BA",
+    "fp": "nes-can:D_SOD-323",
+    "nets": {
+      "1": "K_DATA_EXT",
+      "2": "GND"
+    },
+    "xy": [
+      104.0,
+      107.0
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K1",
+      "2": "K2"
+    },
+    "mpn": "PESD5V0S1BA,115",
+    "note": "",
+    "id": "aa1961c4-afc4-473c-9f4e-78db5139c4ca"
+  },
+  {
+    "ref": "D6",
+    "val": "PESD5V0S1BA",
+    "fp": "nes-can:D_SOD-323",
+    "nets": {
+      "1": "K_CLK_EXT",
+      "2": "GND"
+    },
+    "xy": [
+      117.0,
+      107.0
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K1",
+      "2": "K2"
+    },
+    "mpn": "PESD5V0S1BA,115",
+    "note": "",
+    "id": "67157d52-6b9e-48c4-9403-9afa30dd5b42"
+  },
+  {
+    "ref": "D7",
+    "val": "PESD5V0S1BA",
+    "fp": "nes-can:D_SOD-323",
+    "nets": {
+      "1": "M_DATA_EXT",
+      "2": "GND"
+    },
+    "xy": [
+      124.0,
+      107.0
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K1",
+      "2": "K2"
+    },
+    "mpn": "PESD5V0S1BA,115",
+    "note": "",
+    "id": "cec58910-d526-42ba-9029-a45734791494"
+  },
+  {
+    "ref": "D8",
+    "val": "PESD5V0S1BA",
+    "fp": "nes-can:D_SOD-323",
+    "nets": {
+      "1": "M_CLK_EXT",
+      "2": "GND"
+    },
+    "xy": [
+      136.0,
+      107.0
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K1",
+      "2": "K2"
+    },
+    "mpn": "PESD5V0S1BA,115",
+    "note": "",
+    "id": "364f3aa8-a364-41ec-8098-0bd7ec6de1dd"
+  },
+  {
+    "ref": "C1",
+    "val": "100n",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "GND"
+    },
+    "xy": [
+      120.5,
+      119.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "52110be0-4a2d-49bc-9c21-7e8ccbd0793b"
+  },
+  {
+    "ref": "C2",
+    "val": "100n",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "GND"
+    },
+    "xy": [
+      139.5,
+      125.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "613aabf8-93f6-48f7-8d7a-ff6f8895b346"
+  },
+  {
+    "ref": "C3",
+    "val": "100n",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "GND"
+    },
+    "xy": [
+      155.0,
+      125.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "752db8e5-c1b8-4e0b-8837-bb10efacc0e8"
+  },
+  {
+    "ref": "C4",
+    "val": "100n",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "xy": [
+      160.0,
+      135.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "55f9ed5d-00fd-4ba3-91c2-17a1ebf0deb9"
+  },
+  {
+    "ref": "C5",
+    "val": "10u/50V",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "xy": [
+      143.0,
+      106.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "GRM21BR61H106KE43L",
+    "note": "",
+    "id": "44f696b3-0b87-446c-8aa1-054211e5b043"
+  },
+  {
+    "ref": "C6",
+    "val": "10u/16V",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "GND"
+    },
+    "xy": [
+      157.0,
+      109.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "GRM21BR61C106KE15L",
+    "note": "",
+    "id": "8b78f244-5ae1-46ea-989b-398351c3ec2b"
+  },
+  {
+    "ref": "C7",
+    "val": "100n",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "K_5V",
+      "2": "GND"
+    },
+    "xy": [
+      107.0,
+      109.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "5e6c8bcf-bbf5-49e8-89d5-8d7df26620d8"
+  },
+  {
+    "ref": "C8",
+    "val": "100n",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "M_5V",
+      "2": "GND"
+    },
+    "xy": [
+      132.0,
+      109.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "cf539df0-55bb-45ec-ab67-2da719c34104"
+  },
+  {
+    "ref": "Y1",
+    "val": "16MHz CL18pF",
+    "fp": "nes-can:Crystal_HC49-4H_Vertical",
+    "nets": {
+      "1": "OSC1",
+      "2": "OSC2"
+    },
+    "xy": [
+      132.0,
+      134.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "ABL-16.000MHZ-B2",
+    "note": "",
+    "id": "2f90df46-73f5-4008-9795-b12d43d31b20"
+  },
+  {
+    "ref": "C9",
+    "val": "27p",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "OSC1",
+      "2": "GND"
+    },
+    "xy": [
+      126.0,
+      131.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C270J5GACTU",
+    "note": "",
+    "id": "b26b1ca5-beea-487a-ab25-414a69ad7d0d"
+  },
+  {
+    "ref": "C10",
+    "val": "27p",
+    "fp": "nes-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "OSC2",
+      "2": "GND"
+    },
+    "xy": [
+      139.5,
+      129.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "C0805C270J5GACTU",
+    "note": "",
+    "id": "adb2c885-04bd-46cd-9ebe-1ec507853902"
+  },
+  {
+    "ref": "R19",
+    "val": "100",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "K_LATCH",
+      "2": "K_LATCH_EXT"
+    },
+    "xy": [
+      108.0,
+      107.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "f6c8ba46-d15b-473c-aeb9-8790fa8f7e6b"
+  },
+  {
+    "ref": "R20",
+    "val": "100",
+    "fp": "nes-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "M_LATCH",
+      "2": "M_LATCH_EXT"
+    },
+    "xy": [
+      128.5,
+      108.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "17a3a36f-0331-49bd-8b9e-45d94f7283f9"
+  },
+  {
+    "ref": "TP1",
+    "val": "5V",
+    "fp": "nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm",
+    "nets": {
+      "1": "5V"
+    },
+    "xy": [
+      145.0,
+      116.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "TEST PAD",
+    "note": "Bare plated test pad; do not purchase",
+    "id": "5afd12c1-7476-4920-9ed6-566030a15a88"
+  },
+  {
+    "ref": "TP2",
+    "val": "GND",
+    "fp": "nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm",
+    "nets": {
+      "1": "GND"
+    },
+    "xy": [
+      145.0,
+      119.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "TEST PAD",
+    "note": "Bare plated test pad; do not purchase",
+    "id": "40325f5d-9e49-44e8-99eb-47dc7def4b97"
+  },
+  {
+    "ref": "TP3",
+    "val": "CAN_TX",
+    "fp": "nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm",
+    "nets": {
+      "1": "CAN_TX"
+    },
+    "xy": [
+      142.0,
+      133.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "TEST PAD",
+    "note": "Bare plated test pad; do not purchase",
+    "id": "8b5b8f69-8ede-4eb0-804e-5922edf472cf"
+  },
+  {
+    "ref": "TP4",
+    "val": "CAN_RX",
+    "fp": "nes-can:TestPoint_THTPad_D1.5mm_Drill0.7mm",
+    "nets": {
+      "1": "CAN_RX"
+    },
+    "xy": [
+      142.0,
+      136.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "TEST PAD",
+    "note": "Bare plated test pad; do not purchase",
+    "id": "7aca5473-5e79-48ae-bcf6-d83bf96c9907"
+  }
+]

@@ -1,0 +1,4 @@
+firmware/build/
+reports/placement.kicad_pcb
+*.kicad_prl
+*.lck

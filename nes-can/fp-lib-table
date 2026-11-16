@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "nes-can")(type "KiCad")(uri "${KIPRJMOD}/nes-can.pretty")(options "")(descr "Project-local footprints")))
