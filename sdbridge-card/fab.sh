@@ -4,7 +4,7 @@
 # by KiCad's command-line tool, and manufacturing/fabrication.txt.  The
 # ZIP is generated, never committed.
 #
-#   sh hardware/sdbridge-card/fab.sh        (KiCad 10; KICAD_CLI=path to override)
+#   sh sdbridge-card/fab.sh        (KiCad 10; KICAD_CLI=path to override)
 set -e
 here=$(cd "$(dirname "$0")" && pwd)
 cli=${KICAD_CLI:-$(command -v kicad-cli || echo /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli)}
