@@ -5,4 +5,3 @@
 fp-info-cache
 ~*.lck
 __pycache__/
-!manufacturing/sdbridge-card-revB.zip

@@ -4,7 +4,7 @@ This is the slot-powered version of the Pico SD bridge. The assembled carrier ha
 
 Open **sdbridge-card.kicad_pro** in KiCad 10 with its standard libraries installed. The project includes local symbols and a card-side contact footprint. The CAD and electrical checks below are complete. The new assembly still needs qualification in an actual 192.
 
-- **PCB order** — [Gerbers, drill, layer job and fabrication notes](manufacturing/sdbridge-card-revB.zip). Quote the **two-layer, 0.40 mm** finished stack and selective hard gold explicitly.
+- **PCB order** — Gerbers, drill, layer job and [fabrication notes](manufacturing/fabrication.txt), packed into `manufacturing/sdbridge-card-revB.zip` by `sh fab.sh` (KiCad 10's `kicad-cli`; the ZIP is generated, not committed). Quote the **two-layer, 0.40 mm** finished stack and selective hard gold explicitly.
 - **PCB assembly** — [BOM with manufacturer part numbers](manufacturing/bom.csv) and [top-side placement](manufacturing/placement.csv). J1 is the nine-finger pattern. TP1–7 are bare probe pads.
 - **Carrier** — [dimensioned assembly](mechanical/assembly.svg), [carrier STEP](mechanical/carrier.step), [tray STL](mechanical/tray.stl), [lid STL](mechanical/lid.stl) and [solid fit gauge](mechanical/fit-gauge.stl). STL dimensions are millimetres. The KiCad board outline is the insert. Both insulating shell halves are required for the finished profile.
 - **Installation** — [rear cage wiring drawing](mechanical/cage-wiring.svg). It identifies tails by electrical continuity, since the board-side tail order depends on the socket.
