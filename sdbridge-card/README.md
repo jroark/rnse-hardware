@@ -1,10 +1,10 @@
-# RNS-E 192 SD bridge card · Rev A
+# RNS-E 192 SD bridge card · PCB Rev B
 
 This is the slot-powered version of the Pico SD bridge. The assembled carrier has the outline of a full-size SD card. A bare RP2040 and 2 MiB Winbond flash sit inside it. The phone plugs into a USB-A receptacle wired behind the modified cage. All wiring stays behind the cage and clear of the screen opening.
 
 Open **sdbridge-card.kicad_pro** in KiCad 10 with its standard libraries installed. The project includes local symbols and a card-side contact footprint. The CAD and electrical checks below are complete. The new assembly still needs qualification in an actual 192.
 
-- **PCB order** — [Gerbers, drill, layer job and fabrication notes](manufacturing/sdbridge-card-revA.zip). Quote the **0.40 mm** finished stack and selective hard gold explicitly.
+- **PCB order** — [Gerbers, drill, layer job and fabrication notes](manufacturing/sdbridge-card-revB.zip). Quote the **two-layer, 0.40 mm** finished stack and selective hard gold explicitly.
 - **PCB assembly** — [BOM with manufacturer part numbers](manufacturing/bom.csv) and [top-side placement](manufacturing/placement.csv). J1 is the nine-finger pattern. TP1–7 are bare probe pads.
 - **Carrier** — [dimensioned assembly](mechanical/assembly.svg), [carrier STEP](mechanical/carrier.step), [tray STL](mechanical/tray.stl), [lid STL](mechanical/lid.stl) and [solid fit gauge](mechanical/fit-gauge.stl). STL dimensions are millimetres. The KiCad board outline is the insert. Both insulating shell halves are required for the finished profile.
 - **Installation** — [rear cage wiring drawing](mechanical/cage-wiring.svg). It identifies tails by electrical continuity, since the board-side tail order depends on the socket.
@@ -38,7 +38,7 @@ The latch, fixed write-enable profile, card-detect edge, recessed contact channe
 4. Fit the lid with its pockets toward the components. Use **0.025 mm** bond film on the mating perimeter. Keep the seam flush. Check that the lid stays flat over U1 under light pressure and that the carrier cannot separate during removal.
 5. Inspect the finished card. Target 24.00 and 32.00 mm within ±0.05 mm, and 2.10 mm within ±0.04 mm. From the gold datum the tray floor reaches −0.55 mm, lid exterior +1.55 mm and U1 pocket roof +1.45 mm. Hold the assembled roof within ±0.02 mm and measure the populated height before bonding. With a 0.44 mm finished PCB, 0.90 mm IC, 0.06 mm solder stand-off and 0.01 mm seating allowance, the limiting roof clearance is **0.02 mm**. Reject interference, warping, contamination or any protruding adhesive. Repeat the gauge checks with the actual bonded assembly.
 
-The parametric carrier source reads the KiCad placement CSV. Run `python mechanical/carrier.py` with CadQuery 2.8 to regenerate the mechanical solids after placement changes. Use KiCad's STEP export with user origin **100 × 100 mm** to place the populated PCB into the shell's coordinate system. Align the lowest gold surface to Z = 0.
+PCB Rev B uses the Rev A tray and lid. The parametric carrier source reads the KiCad placement CSV. Run `python mechanical/carrier.py` with CadQuery 2.8 to regenerate the mechanical solids after placement changes. Use KiCad's STEP export with user origin **100 × 100 mm** to place the populated PCB into the shell's coordinate system. Align the lowest gold surface to Z = 0.
 
 ## Programming and checkout
 
@@ -55,4 +55,4 @@ Use the **Pico** firmware target. GP25 drives the active-high green LED. GP0 car
 
 ## Verification record
 
-KiCad 10.0.8 ERC and DRC passed with zero warnings or errors, zero unconnected pads and zero schematic parity issues. The exported B.Mask contains nine finger openings. All 44 finished drill holes clear the nine gold wipe surfaces. The placement file and BOM cover the same 29 populated designators. The existing Pico SDLINK UF2 targets RP2040 flash and fits within the 2 MiB device. The nominal populated STEP model measured 1.33 mm above its lowest gold surface. A solid intersection check found zero overlap with either shell half. Physical cage fit, screen travel, contact reliability, slot supply margin, USB signal quality and operation of this board revision remain bench and hardware tests.
+KiCad 10.0.8 ERC and DRC passed with zero warnings or errors, zero unconnected pads and zero schematic parity issues. The exported B.Mask contains nine finger openings. All 42 finished drill holes clear the nine gold wipe surfaces. The placement file and BOM cover the same 29 populated designators. The existing Pico SDLINK UF2 targets RP2040 flash and fits within the 2 MiB device. The nominal populated STEP model measured 1.33 mm above its lowest gold surface. A solid intersection check found zero overlap with either shell half. The straight coupled USB section has ground underneath on B.Cu. A nominal cross-section estimate gives approximately 90 Ω differential for 0.32 mm traces at 0.14 mm spacing. The split to the SD fingers and the rear wiring need bench verification. Physical cage fit, screen travel, contact reliability, slot supply margin, USB signal quality and operation of this board revision remain bench and hardware tests.

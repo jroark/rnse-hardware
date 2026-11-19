@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "RNS-E 192  /  SD bridge")
-		(rev "A")
+		(rev "B")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

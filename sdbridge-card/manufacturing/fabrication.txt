@@ -1,15 +1,18 @@
-RNS-E 192 SD bridge, revision A
+RNS-E 192 SD bridge, revision B
 Dimensions in mm. Single insert per Gerber outline. Bare PCB 21.50 x 30.60.
 The separate insulating carrier provides the SD outline and latch.
 
-Finished four-layer FR-4 0.40 +/-0.04 including mask and finish. Keep flat.
-External copper target 18 um finished, inner copper 12 um. Nominal dielectric
-spacings 0.075 / 0.170 / 0.075. L1 components/signals, L2 continuous ground,
-L3 signals and 3.3 V pour, L4 fingers and signals. 0.15 min track, 0.13 min
+Finished two-layer FR-4 0.40 +/-0.04 including mask and finish. Keep flat.
+Nominal stack in mm: 0.010 mask / 0.018 Cu / 0.344 FR-4 core / 0.018 Cu /
+0.010 mask. L1 has components and signals. L2 has SD fingers and signals.
+Ground fills both faces, with plated stitching vias. 0.15 min track, 0.13 min
 clearance, 0.20 finished PTH via in 0.45 land. Tent vias both sides.
-Controlled Z target for L1 USB full-speed pair: 90 ohm differential where
-coupled. Fabricator to review the stack against the KiCad geometry before
-production. The SD contact fanout necessarily separates the pair.
+
+USB full-speed: the coupled L1 section between R4/R5 and the finger fanout
+uses 0.32 mm traces, 0.14 mm edge gap and 0.15 mm side ground clearance over
+L2 ground. Nominal differential target 90 ohms. Confirm this cross-section
+with the fabricator's finished copper and dielectric. The 0.16 mm breakouts
+separate to reach fingers 8 and 9.
 
 Selective electroplated hard gold 0.76 um minimum over 2.5 um minimum nickel
 on all nine B.Cu contact lands, including electrically unused J1.1. B.Mask
