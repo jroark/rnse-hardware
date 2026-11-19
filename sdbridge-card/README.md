@@ -42,7 +42,7 @@ PCB Rev B uses the Rev A tray and lid. The parametric carrier source reads the K
 
 ## Programming and checkout
 
-Use the **Pico** firmware target. GP25 drives the active-high green LED. GP0 carries the 115200 baud UART log. The existing design uses GP2–4 for the one-bit SD interface. [Prototype and firmware](../../sdbridge/docs/sdbridge.md) · [Raspberry Pi RP2040 hardware design guide](https://datasheets.raspberrypi.com/rp2040/hardware_design_with_rp2040.pdf)
+Use the **Pico** firmware target. GP25 drives the active-high green LED. GP0 carries the 115200 baud UART log. The existing design uses GP2–4 for the one-bit SD interface. [Prototype and firmware](https://github.com/jroark/rnse-sdbridge/blob/main/docs/sdbridge.md) · [Raspberry Pi RP2040 hardware design guide](https://datasheets.raspberrypi.com/rp2040/hardware_design_with_rp2040.pdf)
 
 | Pad | TP1 | TP2 | TP3 | TP4 | TP5 | TP6 | TP7 |
 |---|---|---|---|---|---|---|---|
@@ -51,7 +51,7 @@ Use the **Pico** firmware target. GP25 drives the active-high green LED. GP0 car
 1. On the bench, outside the cage, power TP2 from a regulated current-limited 3.3 V supply with return at TP1. Verify the core regulator comes up and confirm SWD identification. BOOTSEL connects to flash CS through R8. For USB boot, ground TP6, pulse TP5 low and release reset, then release TP6. A bench USB fixture connects PC D+, D− and GND to fingers 8, 9 and 3/6. Keep PC VBUS isolated from the card. Copy `sdbridge/out/pico/SDLINK.UF2` to the boot volume. Building SDLINK requires the existing build's `AA_CERT` and `AA_KEY` inputs.
 2. Disconnect the bench supply before seating the card in the powered installation. On the unit, test cold power-up with the card latched and insertion after startup. Measure slot 3.3 V and card current during flash boot, enumeration and sustained transfer. Capture the GP0 log on the bench or an instrumented open fixture. Confirm the first SD negotiation completes from slot power.
 3. Verify a complete read and content check of `LINKTEST.BIN`. Connect the phone, confirm USB full-speed enumeration and the Android Auto handshake, and exercise simultaneous USB video reception and SD reads. Repeat after a phone disconnect and a head-unit power cycle.
-4. This delivery contains card hardware only. For a head-unit hardware run, use a verified image with responsive physical display and disc-eject handling during reads and error screens. In the SDK, `panel_service()` polls the faceplate. `KEY_DISPLAY` calls `display_toggle()`. The separate `KEY_CD_EJECT` calls `cd_eject()`, which issues ATAPI ALLOW MEDIUM REMOVAL then START STOP UNIT with LoEj set. Verify screen opening and actual disc expulsion with the bridge installed. Keep stock updater handoffs out of the test. [Faceplate and ATAPI path](../../sdk/src/cd.c) · [Display motor control](../../sdk/src/display.c)
+4. This delivery contains card hardware only. For a head-unit hardware run, use a verified image with responsive physical display and disc-eject handling during reads and error screens. In the SDK, `panel_service()` polls the faceplate. `KEY_DISPLAY` calls `display_toggle()`. The separate `KEY_CD_EJECT` calls `cd_eject()`, which issues ATAPI ALLOW MEDIUM REMOVAL then START STOP UNIT with LoEj set. Verify screen opening and actual disc expulsion with the bridge installed. Keep stock updater handoffs out of the test. [Faceplate and ATAPI path](https://github.com/jroark/rnse-sdk/blob/main/src/cd.c) · [Display motor control](https://github.com/jroark/rnse-sdk/blob/main/src/display.c)
 
 ## Verification record
 
