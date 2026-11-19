@@ -42,7 +42,7 @@ PCB Rev B uses the Rev A tray and lid. The parametric carrier source reads the K
 
 ## Programming and checkout
 
-Use the **Pico** firmware target. GP25 drives the active-high green LED. GP0 carries the 115200 baud UART log. The existing design uses GP2–4 for the one-bit SD interface. [Prototype and firmware](../../docs/sdbridge.md) · [Raspberry Pi RP2040 hardware design guide](https://datasheets.raspberrypi.com/rp2040/hardware_design_with_rp2040.pdf)
+Use the **Pico** firmware target. GP25 drives the active-high green LED. GP0 carries the 115200 baud UART log. The existing design uses GP2–4 for the one-bit SD interface. [Prototype and firmware](../../sdbridge/docs/sdbridge.md) · [Raspberry Pi RP2040 hardware design guide](https://datasheets.raspberrypi.com/rp2040/hardware_design_with_rp2040.pdf)
 
 | Pad | TP1 | TP2 | TP3 | TP4 | TP5 | TP6 | TP7 |
 |---|---|---|---|---|---|---|---|
