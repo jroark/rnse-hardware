@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Package the NES-to-CAN adapter: its firmware and its design.
 
-    python3 hardware/nes-can/package.py     (after `make -C firmware`)
+    python3 nes-can/package.py     (after `make -C nes-can/firmware`)
 
-Writes hardware/nes-can/out/nes-can-release/: nes-can.hex (the
+Writes nes-can/out/nes-can-release/: nes-can.hex (the
 ATtiny1616's firmware, firmware/build/), nes-can-hardware.zip (the KiCad
 project, its generator and checks, Gerbers and BOM) and SHA256SUMS.  The
 NES payloads that talk to it are packaged by the port's nes/package.py
@@ -14,7 +14,7 @@ import hashlib
 import shutil
 import zipfile
 
-HERE = Path(__file__).resolve().parent          # hardware/nes-can
+HERE = Path(__file__).resolve().parent          # nes-can
 OUT = HERE / 'out/nes-can-release'
 OUT.mkdir(parents=True, exist_ok=True)
 shutil.copy2(HERE / 'firmware/build/nes-can.hex', OUT / 'nes-can.hex')

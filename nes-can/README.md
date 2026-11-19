@@ -47,7 +47,7 @@ https://packs.download.microchip.com/Microchip.ATtiny_DFP.3.1.260.atpack and ext
 it outside the repository. Pack SHA256: `59e3b4317cfc3a07a4ee637e49df44c5bd9025d08cf071b4d0d0c83396af5aae`. Build with:
 
 ```
-make -C hardware/nes-can/firmware DFP=/path/to/extracted/pack
+make -C nes-can/firmware DFP=/path/to/extracted/pack
 ```
 
 Output: `firmware/build/nes-can.hex`. Program with a 5 V-compatible UPDI programmer;
