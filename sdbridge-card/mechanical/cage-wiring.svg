@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="450" viewBox="0 0 830 450">
+ <style>text{font:15px sans-serif;fill:#253541}.h{font:bold 22px sans-serif}.sub{font:bold 15px sans-serif}.n{font:11px sans-serif;text-anchor:middle}.wire{fill:none;stroke-width:3;stroke-linecap:round}.note{font:13px sans-serif}</style>
+ <rect width="830" height="450" fill="white"/>
+ <text x="24" y="36" class="h">RNS-E 192  /  rear cage wiring</text>
+ <text x="24" y="65">Identify the two spring tails by continuity to the card fingers shown below.</text>
+ <text x="29" y="109" class="sub">Card contact face</text>
+ <path d="M26 172 L56 142 H213 V386 H26 Z" fill="#e4ece9" stroke="#365762" stroke-width="2"/>
+ <g fill="#b18b3f">
+ <rect x="38" y="171" width="11" height="30"/><rect x="57" y="155" width="11" height="32"/>
+ <rect x="76" y="155" width="11" height="32"/><rect x="96" y="152" width="11" height="35"/>
+ <rect x="115" y="152" width="11" height="35"/><rect x="135" y="155" width="11" height="32"/>
+ <rect x="154" y="155" width="11" height="32"/><rect x="174" y="155" width="9" height="32"/>
+ <rect x="189" y="155" width="7" height="32"/>
+ </g>
+ <g class="n"><text x="43" y="213">9</text><text x="62" y="200">1</text><text x="81" y="200">2</text><text x="101" y="200">3</text><text x="120" y="200">4</text><text x="140" y="200">5</text><text x="159" y="200">6</text><text x="179" y="200">7</text><text x="193" y="200">8</text></g>
+ <text x="39" y="261">9  ·  DAT2  ·  D−</text><text x="39" y="288">8  ·  DAT1  ·  D+</text>
+ <text x="39" y="365" class="note">Gold facing the viewer</text>
+ <text x="256" y="109" class="sub">Cage solder-side connections</text>
+ <text x="584" y="109" class="sub">Downstream USB-A socket</text>
+ <g class="wire">
+ <path d="M487 153 H570" stroke="#aa4e39"/><path d="M487 202 H570" stroke="#476475"/>
+ <path d="M487 250 H570" stroke="#39856c"/><path d="M487 299 H570" stroke="#34424c"/>
+ </g>
+ <text x="256" y="158">Switched, current-limited 5 V</text><text x="584" y="158">1  ·  VBUS</text>
+ <text x="256" y="207">Isolated tail 9  ·  DAT2</text><text x="584" y="207">2  ·  D−</text>
+ <text x="256" y="255">Isolated tail 8  ·  DAT1</text><text x="584" y="255">3  ·  D+</text>
+ <text x="256" y="304">Cage VSS + supply return</text><text x="584" y="304">4  ·  GND</text>
+ <text x="256" y="348" class="note">Read the USB pin numbers from the receptacle drawing.</text>
+ <text x="256" y="371" class="note">Tail positions vary with the cage. Lines show electrical connections.</text>
+ <text x="24" y="423">SD pin 4 stays on slot 3.3 V. Route only the USB data pair through the two isolated tails.</text>
+</svg>

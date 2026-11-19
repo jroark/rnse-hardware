@@ -1,0 +1,7 @@
+*.kicad_prl
+*.lck
+~*
+*-backups/
+reports/placement.kicad_pcb
+reports/placement.kicad_pro
+reports/placement.kicad_prl

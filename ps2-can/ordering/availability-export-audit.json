@@ -1,0 +1,37 @@
+{
+  "source_file": "myLists.xlsx",
+  "source_sha256": "c17372e8a38fba5a0c743e93d1d3e1ad49f5451b762852f0c8d138b756a4df51",
+  "unavailable_lines": [
+    {
+      "manufacturer_part_number": "GRM21BR61C106KE15L",
+      "quantity": 1,
+      "availability": 0,
+      "source_row": 7
+    },
+    {
+      "manufacturer_part_number": "GRM21BR61H106KE43L",
+      "quantity": 1,
+      "availability": 0,
+      "source_row": 6
+    },
+    {
+      "manufacturer_part_number": "PESD5V0S1BA,115",
+      "quantity": 4,
+      "availability": 0,
+      "source_row": 13
+    },
+    {
+      "manufacturer_part_number": "RC0805FR-07100RL",
+      "quantity": 4,
+      "availability": 0,
+      "source_row": 19
+    },
+    {
+      "manufacturer_part_number": "TJA1055T/2Z",
+      "quantity": 1,
+      "availability": 0,
+      "source_row": 26
+    }
+  ],
+  "invalid_header_import": true
+}
