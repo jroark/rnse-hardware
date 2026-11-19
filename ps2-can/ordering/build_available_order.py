@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """Export an order variant based on the user's DigiKey availability export.
 Original design BOM is preserved. Run after build_order_files.py.
+
+    python3 build_available_order.py myLists.xlsx
 """
-import csv,json,pathlib,collections,hashlib,zipfile,xml.etree.ElementTree as ET
+import csv,json,pathlib,collections,hashlib,sys,zipfile,xml.etree.ElementTree as ET
 D=pathlib.Path(__file__).resolve().parent
-source=pathlib.Path('myLists.xlsx')
+if len(sys.argv)!=2:
+ sys.exit('usage: build_available_order.py DIGIKEY_EXPORT.xlsx')
+source=pathlib.Path(sys.argv[1])
 ns={'m':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
 with zipfile.ZipFile(source) as z:
  strings=[''.join(t.itertext()) for t in ET.fromstring(z.read('xl/sharedStrings.xml')).findall('m:si',ns)]
