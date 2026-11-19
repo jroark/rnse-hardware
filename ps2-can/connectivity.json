@@ -1,0 +1,1098 @@
+[
+  {
+    "ref": "J1",
+    "val": "VEHICLE",
+    "fp": "ps2-can:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal",
+    "nets": {
+      "1": "12V_SW",
+      "2": "GND",
+      "3": "CANH",
+      "4": "CANL"
+    },
+    "xy": [
+      109.5,
+      139
+    ],
+    "rot": 0,
+    "names": {
+      "1": "+12V switched",
+      "2": "GND",
+      "3": "CANH",
+      "4": "CANL"
+    },
+    "mpn": "1715048",
+    "note": "",
+    "id": "3316a9d3-a4a5-4f43-a66d-8d7db34c60d5"
+  },
+  {
+    "ref": "J2",
+    "val": "KEYBOARD",
+    "fp": "ps2-can:MD-60S_2022",
+    "nets": {
+      "1": "K_DATA_EXT",
+      "2": null,
+      "3": "GND",
+      "4": "K_5V",
+      "5": "K_CLK_EXT",
+      "6": null
+    },
+    "xy": [
+      113,
+      101
+    ],
+    "rot": 0,
+    "names": {
+      "1": "DATA",
+      "2": "NC",
+      "3": "GND",
+      "4": "+5V",
+      "5": "CLOCK",
+      "6": "NC"
+    },
+    "mpn": "MD-60S",
+    "note": "Use date code after 2022-03-03",
+    "id": "51bd747e-9389-4d9f-bc2e-88c35560972e"
+  },
+  {
+    "ref": "J3",
+    "val": "MOUSE",
+    "fp": "ps2-can:MD-60S_2022",
+    "nets": {
+      "1": "M_DATA_EXT",
+      "2": null,
+      "3": "GND",
+      "4": "M_5V",
+      "5": "M_CLK_EXT",
+      "6": null
+    },
+    "xy": [
+      130,
+      101
+    ],
+    "rot": 0,
+    "names": {
+      "1": "DATA",
+      "2": "NC",
+      "3": "GND",
+      "4": "+5V",
+      "5": "CLOCK",
+      "6": "NC"
+    },
+    "mpn": "MD-60S",
+    "note": "Use date code after 2022-03-03",
+    "id": "ea568b01-716b-4017-a863-bb9a37f762d6"
+  },
+  {
+    "ref": "J4",
+    "val": "UPDI",
+    "fp": "ps2-can:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "5V",
+      "2": "UPDI",
+      "3": "GND"
+    },
+    "xy": [
+      160,
+      119
+    ],
+    "rot": 0,
+    "names": {
+      "1": "VTREF 5V",
+      "2": "UPDI",
+      "3": "GND"
+    },
+    "mpn": "61300311121",
+    "note": "",
+    "id": "71ce51e1-e83b-43c2-99c8-5f6a141ce529"
+  },
+  {
+    "ref": "U1",
+    "val": "ATtiny1616-SNR",
+    "fp": "ps2-can:SOIC-20W_7.5x12.8mm_P1.27mm",
+    "nets": {
+      "1": "5V",
+      "2": "CS_N",
+      "3": "CAN_INT_N",
+      "4": "K_CLK",
+      "5": "K_DATA",
+      "6": "M_CLK",
+      "7": "M_DATA",
+      "8": "CAN_EN",
+      "9": "CAN_STB",
+      "10": "CAN_ERR_N",
+      "11": "ACT_LED",
+      "12": null,
+      "13": null,
+      "14": null,
+      "15": null,
+      "16": "UPDI",
+      "17": "MOSI",
+      "18": "MISO",
+      "19": "SCK",
+      "20": "GND"
+    },
+    "xy": [
+      113,
+      124
+    ],
+    "rot": 0,
+    "names": {
+      "1": "VDD",
+      "2": "PA4 / SS",
+      "3": "PA5",
+      "4": "PA6",
+      "5": "PA7",
+      "6": "PB5",
+      "7": "PB4",
+      "8": "PB3",
+      "9": "PB2",
+      "10": "PB1",
+      "11": "PB0",
+      "12": "PC0",
+      "13": "PC1",
+      "14": "PC2",
+      "15": "PC3",
+      "16": "PA0 / UPDI",
+      "17": "PA1 / MOSI",
+      "18": "PA2 / MISO",
+      "19": "PA3 / SCK",
+      "20": "GND"
+    },
+    "mpn": "ATTINY1616-SNR",
+    "note": "",
+    "id": "d105e8b1-9db8-4467-a18b-1dda97819bb4"
+  },
+  {
+    "ref": "U2",
+    "val": "MCP2515-I/SO",
+    "fp": "ps2-can:SOIC-18W_7.5x11.6mm_P1.27mm",
+    "nets": {
+      "1": "CAN_TX",
+      "2": "CAN_RX",
+      "3": null,
+      "4": "5V",
+      "5": "5V",
+      "6": "5V",
+      "7": "OSC2",
+      "8": "OSC1",
+      "9": "GND",
+      "10": null,
+      "11": null,
+      "12": "CAN_INT_N",
+      "13": "SCK",
+      "14": "MOSI",
+      "15": "MISO",
+      "16": "CS_N",
+      "17": "CAN_RESET_N",
+      "18": "5V"
+    },
+    "xy": [
+      132,
+      124
+    ],
+    "rot": 0,
+    "names": {
+      "1": "TXCAN",
+      "2": "RXCAN",
+      "3": "CLKOUT",
+      "4": "TX0RTS_N",
+      "5": "TX1RTS_N",
+      "6": "TX2RTS_N",
+      "7": "OSC2",
+      "8": "OSC1",
+      "9": "VSS",
+      "10": "RX1BF_N",
+      "11": "RX0BF_N",
+      "12": "INT_N",
+      "13": "SCK",
+      "14": "SI",
+      "15": "SO",
+      "16": "CS_N",
+      "17": "RESET_N",
+      "18": "VDD"
+    },
+    "mpn": "MCP2515-I/SO",
+    "note": "",
+    "id": "bda0be2e-689e-4283-b1e3-e5743f2ec95b"
+  },
+  {
+    "ref": "U3",
+    "val": "TJA1055T/2Z",
+    "fp": "ps2-can:SOIC-14_3.9x8.7mm_P1.27mm",
+    "nets": {
+      "1": null,
+      "2": "CAN_TX",
+      "3": "CAN_RX",
+      "4": "CAN_ERR_N",
+      "5": "CAN_STB",
+      "6": "CAN_EN",
+      "7": "WAKE_N",
+      "8": "RTH",
+      "9": "RTL",
+      "10": "5V",
+      "11": "CANH",
+      "12": "CANL",
+      "13": "GND",
+      "14": "VBAT"
+    },
+    "xy": [
+      150,
+      133
+    ],
+    "rot": 0,
+    "names": {
+      "1": "INH",
+      "2": "TXD",
+      "3": "RXD",
+      "4": "ERR_N",
+      "5": "STB",
+      "6": "EN",
+      "7": "WAKE_N",
+      "8": "RTH",
+      "9": "RTL",
+      "10": "VCC",
+      "11": "CANH",
+      "12": "CANL",
+      "13": "GND",
+      "14": "BAT"
+    },
+    "mpn": "TJA1055T/2Z",
+    "note": "",
+    "id": "5fa3c445-3673-4ecd-a854-71016f1b297d"
+  },
+  {
+    "ref": "U4",
+    "val": "TSR 1-2450",
+    "fp": "ps2-can:Converter_DCDC_TRACO_TSR-1_THT",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND",
+      "3": "5V"
+    },
+    "xy": [
+      150,
+      106
+    ],
+    "rot": 0,
+    "names": {
+      "1": "VIN",
+      "2": "GND",
+      "3": "+5V"
+    },
+    "mpn": "TSR 1-2450",
+    "note": "",
+    "id": "904d66dd-b55e-42c1-95ed-a59b141266b1"
+  },
+  {
+    "ref": "F1",
+    "val": "0.5A / 63V",
+    "fp": "ps2-can:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+    "nets": {
+      "1": "12V_SW",
+      "2": "12V_FUSED"
+    },
+    "xy": [
+      143.0,
+      141.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "0466.500NR",
+    "note": "",
+    "id": "4467e321-780d-476e-be66-c064e3254e8e"
+  },
+  {
+    "ref": "D1",
+    "val": "SS16",
+    "fp": "ps2-can:D_SMA",
+    "nets": {
+      "1": "VBAT",
+      "2": "12V_FUSED"
+    },
+    "xy": [
+      151.0,
+      141.0
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "mpn": "SS16-E3/61T",
+    "note": "",
+    "id": "acfe3ae6-9551-4942-a5a3-1fdeaeedd362"
+  },
+  {
+    "ref": "D2",
+    "val": "SMBJ18A",
+    "fp": "ps2-can:D_SMB",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "xy": [
+      157.0,
+      140.0
+    ],
+    "rot": 90,
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "mpn": "SMBJ18A",
+    "note": "",
+    "id": "d699561f-35b2-4f52-92a4-bf918daa7c37"
+  },
+  {
+    "ref": "F2",
+    "val": "PTC 0.20A",
+    "fp": "ps2-can:Fuse_1812_4532Metric",
+    "nets": {
+      "1": "5V",
+      "2": "K_5V"
+    },
+    "xy": [
+      103.0,
+      113.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "1812L020/60DR",
+    "note": "",
+    "id": "df4eed37-be5d-44e7-b09f-f0c5425c3368"
+  },
+  {
+    "ref": "F3",
+    "val": "PTC 0.20A",
+    "fp": "ps2-can:Fuse_1812_4532Metric",
+    "nets": {
+      "1": "5V",
+      "2": "M_5V"
+    },
+    "xy": [
+      140.0,
+      113.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "1812L020/60DR",
+    "note": "",
+    "id": "7da7fcea-a41c-404a-9631-4e4a950d6d21"
+  },
+  {
+    "ref": "R1",
+    "val": "100",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "K_DATA_EXT",
+      "2": "K_DATA"
+    },
+    "xy": [
+      107.5,
+      116.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "b318481e-51e3-4eb0-89a7-0c10b79a0e2a"
+  },
+  {
+    "ref": "R2",
+    "val": "100",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "K_CLK_EXT",
+      "2": "K_CLK"
+    },
+    "xy": [
+      104.0,
+      119.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "72e2cc18-7fba-4e11-bc0a-d6fa18cbea31"
+  },
+  {
+    "ref": "R3",
+    "val": "100",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "M_DATA_EXT",
+      "2": "M_DATA"
+    },
+    "xy": [
+      128.0,
+      116.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "c77f085f-418f-4b7f-9dcb-79554ffa894b"
+  },
+  {
+    "ref": "R4",
+    "val": "100",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "M_CLK_EXT",
+      "2": "M_CLK"
+    },
+    "xy": [
+      142.0,
+      121.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "RC0805FR-07100RL",
+    "note": "",
+    "id": "f665ea4c-2073-49b4-bd6f-8c6269ea00d3"
+  },
+  {
+    "ref": "R5",
+    "val": "4.7k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "K_DATA"
+    },
+    "xy": [
+      104.0,
+      122.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-074K7L",
+    "note": "",
+    "id": "e3e88efe-089d-4f1e-8d09-391c9484f665"
+  },
+  {
+    "ref": "R6",
+    "val": "4.7k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "K_CLK"
+    },
+    "xy": [
+      104.0,
+      125.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-074K7L",
+    "note": "",
+    "id": "c2bd1bc8-1310-4166-a25e-0b75c1198913"
+  },
+  {
+    "ref": "R7",
+    "val": "4.7k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "M_DATA"
+    },
+    "xy": [
+      143.5,
+      114.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "RC0805FR-074K7L",
+    "note": "",
+    "id": "66c850b4-c315-431d-86b8-f8eb6351fe3e"
+  },
+  {
+    "ref": "R8",
+    "val": "4.7k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "M_CLK"
+    },
+    "xy": [
+      140.5,
+      117.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-074K7L",
+    "note": "",
+    "id": "595125d7-1fb0-4b9a-a350-65d407a83e3d"
+  },
+  {
+    "ref": "R9",
+    "val": "10k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "CS_N"
+    },
+    "xy": [
+      120.0,
+      115.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "ef9bfbfc-267a-40d7-83b7-c48122a92841"
+  },
+  {
+    "ref": "R10",
+    "val": "10k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "CAN_RESET_N"
+    },
+    "xy": [
+      139.5,
+      121.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "38cfe06f-ade1-43e1-8331-9ec929212fe2"
+  },
+  {
+    "ref": "R11",
+    "val": "10k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "CAN_EN",
+      "2": "GND"
+    },
+    "xy": [
+      143.0,
+      125.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "36d3fee1-d42c-4d3a-bf88-f1e7b17e4af4"
+  },
+  {
+    "ref": "R12",
+    "val": "10k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "CAN_STB",
+      "2": "GND"
+    },
+    "xy": [
+      143.0,
+      128.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "47a29bf2-14c6-4675-a44b-11d75aadf03c"
+  },
+  {
+    "ref": "R13",
+    "val": "5.6k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "RTH",
+      "2": "CANH"
+    },
+    "xy": [
+      150.0,
+      126.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-075K6L",
+    "note": "",
+    "id": "9a381917-d548-482d-9b9e-0bd22ba8f06a"
+  },
+  {
+    "ref": "R14",
+    "val": "5.6k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "RTL",
+      "2": "CANL"
+    },
+    "xy": [
+      157.0,
+      128.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-075K6L",
+    "note": "",
+    "id": "67f324b6-1012-450c-9311-7df7046a369a"
+  },
+  {
+    "ref": "R15",
+    "val": "10k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "VBAT",
+      "2": "WAKE_N"
+    },
+    "xy": [
+      157.0,
+      132.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "9872ac6a-f1e2-4148-a71b-e75596fe1206"
+  },
+  {
+    "ref": "R16",
+    "val": "10k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "CAN_TX"
+    },
+    "xy": [
+      122.0,
+      129.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-0710KL",
+    "note": "",
+    "id": "7d72cc33-3159-411f-96a2-35a8a24b5352"
+  },
+  {
+    "ref": "R17",
+    "val": "1k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "PWR_LED"
+    },
+    "xy": [
+      155.0,
+      116.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-071KL",
+    "note": "",
+    "id": "49944380-ba31-4eca-be02-c62dc7dddba8"
+  },
+  {
+    "ref": "R18",
+    "val": "1k",
+    "fp": "ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+    "nets": {
+      "1": "ACT_LED",
+      "2": "ACT_ANODE"
+    },
+    "xy": [
+      120.0,
+      132.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "RC0805FR-071KL",
+    "note": "",
+    "id": "b6180094-ee34-4274-bbcb-5a4d6223c92d"
+  },
+  {
+    "ref": "D3",
+    "val": "POWER green",
+    "fp": "ps2-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "nets": {
+      "1": "GND",
+      "2": "PWR_LED"
+    },
+    "xy": [
+      155.0,
+      119.0
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "mpn": "LTST-C170KGKT",
+    "note": "",
+    "id": "e0f219d1-6f6f-4de8-acc2-be1e2e008e92"
+  },
+  {
+    "ref": "D4",
+    "val": "ACT amber",
+    "fp": "ps2-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "nets": {
+      "1": "GND",
+      "2": "ACT_ANODE"
+    },
+    "xy": [
+      129.0,
+      139.0
+    ],
+    "rot": 90,
+    "names": {
+      "1": "K",
+      "2": "A"
+    },
+    "mpn": "LTST-C170KFKT",
+    "note": "",
+    "id": "9507230f-2df2-4790-b125-302a4d312021"
+  },
+  {
+    "ref": "D5",
+    "val": "PESD5V0S1BA",
+    "fp": "ps2-can:D_SOD-323",
+    "nets": {
+      "1": "K_DATA_EXT",
+      "2": "GND"
+    },
+    "xy": [
+      111.5,
+      115.5
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K1",
+      "2": "K2"
+    },
+    "mpn": "PESD5V0S1BA,115",
+    "note": "",
+    "id": "e9629250-cc33-41f0-a7d3-60392fa6871d"
+  },
+  {
+    "ref": "D6",
+    "val": "PESD5V0S1BA",
+    "fp": "ps2-can:D_SOD-323",
+    "nets": {
+      "1": "K_CLK_EXT",
+      "2": "GND"
+    },
+    "xy": [
+      116.0,
+      115.5
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K1",
+      "2": "K2"
+    },
+    "mpn": "PESD5V0S1BA,115",
+    "note": "",
+    "id": "be0ef13f-d364-4841-93fa-ad401d1d5671"
+  },
+  {
+    "ref": "D7",
+    "val": "PESD5V0S1BA",
+    "fp": "ps2-can:D_SOD-323",
+    "nets": {
+      "1": "M_DATA_EXT",
+      "2": "GND"
+    },
+    "xy": [
+      124.0,
+      115.5
+    ],
+    "rot": 0,
+    "names": {
+      "1": "K1",
+      "2": "K2"
+    },
+    "mpn": "PESD5V0S1BA,115",
+    "note": "",
+    "id": "b17a9537-6cfd-4349-badf-78f8cce75325"
+  },
+  {
+    "ref": "D8",
+    "val": "PESD5V0S1BA",
+    "fp": "ps2-can:D_SOD-323",
+    "nets": {
+      "1": "M_CLK_EXT",
+      "2": "GND"
+    },
+    "xy": [
+      139.0,
+      107.0
+    ],
+    "rot": 90,
+    "names": {
+      "1": "K1",
+      "2": "K2"
+    },
+    "mpn": "PESD5V0S1BA,115",
+    "note": "",
+    "id": "497944b7-dc9e-45de-a0f5-2f8008187d79"
+  },
+  {
+    "ref": "C1",
+    "val": "100n",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "GND"
+    },
+    "xy": [
+      120.5,
+      119.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "0e483091-dd90-4499-8748-77ac71e9af7b"
+  },
+  {
+    "ref": "C2",
+    "val": "100n",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "GND"
+    },
+    "xy": [
+      139.5,
+      125.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "9e25f674-6ecb-41ab-97b7-aed7fa4c481f"
+  },
+  {
+    "ref": "C3",
+    "val": "100n",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "GND"
+    },
+    "xy": [
+      155.0,
+      125.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "c3e259a2-1c98-437d-8516-e1ce761eea3f"
+  },
+  {
+    "ref": "C4",
+    "val": "100n",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "xy": [
+      160.0,
+      135.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "1bac2521-a69c-4a05-970f-7e533ef5f5ba"
+  },
+  {
+    "ref": "C5",
+    "val": "10u/50V",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "VBAT",
+      "2": "GND"
+    },
+    "xy": [
+      143.0,
+      106.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "GRM21BR61H106KE43L",
+    "note": "",
+    "id": "d2398afb-db98-4b0c-b7c9-21daf739cade"
+  },
+  {
+    "ref": "C6",
+    "val": "10u/16V",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "5V",
+      "2": "GND"
+    },
+    "xy": [
+      157.0,
+      109.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "GRM21BR61C106KE15L",
+    "note": "",
+    "id": "ac340066-38e8-4f4e-9508-06959b6a6883"
+  },
+  {
+    "ref": "C7",
+    "val": "100n",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "K_5V",
+      "2": "GND"
+    },
+    "xy": [
+      103.0,
+      108.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "fa0bc553-fad8-4946-aec1-74fa3e93a1c1"
+  },
+  {
+    "ref": "C8",
+    "val": "100n",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "M_5V",
+      "2": "GND"
+    },
+    "xy": [
+      132.0,
+      115.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C104K5RACTU",
+    "note": "",
+    "id": "ee684019-134a-4ffb-886a-833f9836f74d"
+  },
+  {
+    "ref": "Y1",
+    "val": "16MHz CL18pF",
+    "fp": "ps2-can:Crystal_HC49-4H_Vertical",
+    "nets": {
+      "1": "OSC1",
+      "2": "OSC2"
+    },
+    "xy": [
+      132.0,
+      134.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "ABL-16.000MHZ-B2",
+    "note": "",
+    "id": "6cc4b004-78b3-4dd4-8739-3b35c8d22cef"
+  },
+  {
+    "ref": "C9",
+    "val": "27p",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "OSC1",
+      "2": "GND"
+    },
+    "xy": [
+      126.0,
+      131.5
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "C0805C270J5GACTU",
+    "note": "",
+    "id": "4e4fc0b4-35cf-4131-a1bb-61ca2cebff59"
+  },
+  {
+    "ref": "C10",
+    "val": "27p",
+    "fp": "ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+    "nets": {
+      "1": "OSC2",
+      "2": "GND"
+    },
+    "xy": [
+      139.5,
+      129.0
+    ],
+    "rot": 90,
+    "names": {},
+    "mpn": "C0805C270J5GACTU",
+    "note": "",
+    "id": "71160fcd-f2dc-40fa-b2c3-8b8bc499afba"
+  },
+  {
+    "ref": "TP1",
+    "val": "5V",
+    "fp": "ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm",
+    "nets": {
+      "1": "5V"
+    },
+    "xy": [
+      146.0,
+      116.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "TEST PAD",
+    "note": "Bare plated test pad; do not purchase",
+    "id": "e9b73350-ff76-4686-83d4-2cd1f6878162"
+  },
+  {
+    "ref": "TP2",
+    "val": "GND",
+    "fp": "ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm",
+    "nets": {
+      "1": "GND"
+    },
+    "xy": [
+      145.0,
+      119.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "TEST PAD",
+    "note": "Bare plated test pad; do not purchase",
+    "id": "23980df9-7e5d-4160-840d-e8fec2842eca"
+  },
+  {
+    "ref": "TP3",
+    "val": "CAN_TX",
+    "fp": "ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm",
+    "nets": {
+      "1": "CAN_TX"
+    },
+    "xy": [
+      142.0,
+      133.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "TEST PAD",
+    "note": "Bare plated test pad; do not purchase",
+    "id": "8d466275-67c3-427a-8faa-6e9fd5e78039"
+  },
+  {
+    "ref": "TP4",
+    "val": "CAN_RX",
+    "fp": "ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm",
+    "nets": {
+      "1": "CAN_RX"
+    },
+    "xy": [
+      142.0,
+      136.0
+    ],
+    "rot": 0,
+    "names": {},
+    "mpn": "TEST PAD",
+    "note": "Bare plated test pad; do not purchase",
+    "id": "79f9ba41-a880-438d-a51d-08d088fce1bc"
+  }
+]

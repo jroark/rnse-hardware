@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>ps2-can.kicad_sch</source>
+    <date>2026-11-15T17:01:02</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RNS-E PS/2 keyboard + mouse / fault-tolerant CAN</title>
+        <company/>
+        <rev>A</rev>
+        <date/>
+        <source>ps2-can.kicad_sch</source>
+        <comment number="1" value="5 V ATtiny1616 + MCP2515 + TJA1055T; 100 kbit/s"/>
+        <comment number="2" value="Net-label interconnect; see README for bring-up and termination"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C1" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e483091-dd90-4499-8748-77ac71e9af7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C2" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e25f674-6ecb-41ab-97b7-aed7fa4c481f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C3" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3e259a2-1c98-437d-8516-e1ce761eea3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C4" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bac2521-a69c-4a05-970f-7e533ef5f5ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>10u/50V</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C5" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2398afb-db98-4b0c-b7c9-21daf739cade</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>10u/16V</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C6" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac340066-38e8-4f4e-9508-06959b6a6883</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C7" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa0bc553-fad8-4946-aec1-74fa3e93a1c1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C8" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee684019-134a-4ffb-886a-833f9836f74d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>27p</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C9" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e4fc0b4-35cf-4131-a1bb-61ca2cebff59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>27p</value>
+      <footprint>ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="C10" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71160fcd-f2dc-40fa-b2c3-8b8bc499afba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SS16</value>
+      <footprint>ps2-can:D_SMA</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="D1" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acfe3ae6-9551-4942-a5a3-1fdeaeedd362</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>SMBJ18A</value>
+      <footprint>ps2-can:D_SMB</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="D2" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d699561f-35b2-4f52-92a4-bf918daa7c37</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>POWER green</value>
+      <footprint>ps2-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="D3" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0f219d1-6f6f-4de8-acc2-be1e2e008e92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>ACT amber</value>
+      <footprint>ps2-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="D4" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9507230f-2df2-4790-b125-302a4d312021</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>PESD5V0S1BA</value>
+      <footprint>ps2-can:D_SOD-323</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="D5" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9629250-cc33-41f0-a7d3-60392fa6871d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>PESD5V0S1BA</value>
+      <footprint>ps2-can:D_SOD-323</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="D6" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be0ef13f-d364-4841-93fa-ad401d1d5671</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D7">
+      <value>PESD5V0S1BA</value>
+      <footprint>ps2-can:D_SOD-323</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="D7" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b17a9537-6cfd-4349-badf-78f8cce75325</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D8">
+      <value>PESD5V0S1BA</value>
+      <footprint>ps2-can:D_SOD-323</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:D_SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="D8" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>497944b7-dc9e-45de-a0f5-2f8008187d79</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>0.5A / 63V</value>
+      <footprint>ps2-can:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="F1" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4467e321-780d-476e-be66-c064e3254e8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>PTC 0.20A</value>
+      <footprint>ps2-can:Fuse_1812_4532Metric</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:Fuse_1812_4532Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="F2" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df4eed37-be5d-44e7-b09f-f0c5425c3368</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F3">
+      <value>PTC 0.20A</value>
+      <footprint>ps2-can:Fuse_1812_4532Metric</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:Fuse_1812_4532Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="F3" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7da7fcea-a41c-404a-9631-4e4a950d6d21</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>VEHICLE</value>
+      <footprint>ps2-can:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="J1" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3316a9d3-a4a5-4f43-a66d-8d7db34c60d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>KEYBOARD</value>
+      <footprint>ps2-can:MD-60S_2022</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:MD-60S_2022</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="J2" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51bd747e-9389-4d9f-bc2e-88c35560972e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>MOUSE</value>
+      <footprint>ps2-can:MD-60S_2022</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:MD-60S_2022</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="J3" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea568b01-716b-4017-a863-bb9a37f762d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>UPDI</value>
+      <footprint>ps2-can:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="J4" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71ce51e1-e83b-43c2-99c8-5f6a141ce529</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R1" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b318481e-51e3-4eb0-89a7-0c10b79a0e2a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R2" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72e2cc18-7fba-4e11-bc0a-d6fa18cbea31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R3" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c77f085f-418f-4b7f-9dcb-79554ffa894b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R4" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f665ea4c-2073-49b4-bd6f-8c6269ea00d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R5" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3e88efe-089d-4f1e-8d09-391c9484f665</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R6" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2bd1bc8-1310-4166-a25e-0b75c1198913</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R7" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66c850b4-c315-431d-86b8-f8eb6351fe3e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R8" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>595125d7-1fb0-4b9a-a350-65d407a83e3d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R9" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef9bfbfc-267a-40d7-83b7-c48122a92841</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R10" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38cfe06f-ade1-43e1-8331-9ec929212fe2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R11" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36d3fee1-d42c-4d3a-bf88-f1e7b17e4af4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R12" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47a29bf2-14c6-4675-a44b-11d75aadf03c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>5.6k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R13" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a381917-d548-482d-9b9e-0bd22ba8f06a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>5.6k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R14" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67f324b6-1012-450c-9311-7df7046a369a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R15" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9872ac6a-f1e2-4148-a71b-e75596fe1206</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R16" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d72cc33-3159-411f-96a2-35a8a24b5352</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R17" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49944380-ba31-4eca-be02-c62dc7dddba8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="R18" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6180094-ee34-4274-bbcb-5a4d6223c92d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>5V</value>
+      <footprint>ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="TP1" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9b73350-ff76-4686-83d4-2cd1f6878162</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="TP2" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23980df9-7e5d-4160-840d-e8fec2842eca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>CAN_TX</value>
+      <footprint>ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="TP3" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d466275-67c3-427a-8faa-6e9fd5e78039</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>CAN_RX</value>
+      <footprint>ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:TestPoint_THTPad_D1.5mm_Drill0.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="TP4" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79f9ba41-a880-438d-a51d-08d088fce1bc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny1616-SNR</value>
+      <footprint>ps2-can:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="U1" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d105e8b1-9db8-4467-a18b-1dda97819bb4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>MCP2515-I/SO</value>
+      <footprint>ps2-can:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="U2" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bda0be2e-689e-4283-b1e3-e5743f2ec95b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TJA1055T/2Z</value>
+      <footprint>ps2-can:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:SOIC-14_3.9x8.7mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="U3" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fa3c445-3673-4ecd-a854-71016f1b297d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>TSR 1-2450</value>
+      <footprint>ps2-can:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:Converter_DCDC_TRACO_TSR-1_THT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="U4" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>904d66dd-b55e-42c1-95ed-a59b141266b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz CL18pF</value>
+      <footprint>ps2-can:Crystal_HC49-4H_Vertical</footprint>
+      <fields>
+        <field name="Footprint">ps2-can:Crystal_HC49-4H_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ps2-can" part="Y1" description=""/>
+      <property name="Sheetname" value="ps2-can"/>
+      <property name="Sheetfile" value="ps2-can.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cc4b004-78b3-4dd4-8739-3b35c8d22cef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ps2-can" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="C10">
+      <fields>
+        <field name="Reference">C10</field>
+        <field name="Value">27p</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">10u/50V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">10u/16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">100n</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="C9">
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">27p</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">SS16</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">SMBJ18A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="D3">
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">POWER green</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="D4">
+      <fields>
+        <field name="Reference">D4</field>
+        <field name="Value">ACT amber</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="D5">
+      <fields>
+        <field name="Reference">D5</field>
+        <field name="Value">PESD5V0S1BA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="D6">
+      <fields>
+        <field name="Reference">D6</field>
+        <field name="Value">PESD5V0S1BA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="D7">
+      <fields>
+        <field name="Reference">D7</field>
+        <field name="Value">PESD5V0S1BA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="D8">
+      <fields>
+        <field name="Reference">D8</field>
+        <field name="Value">PESD5V0S1BA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="F1">
+      <fields>
+        <field name="Reference">F1</field>
+        <field name="Value">0.5A / 63V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="F2">
+      <fields>
+        <field name="Reference">F2</field>
+        <field name="Value">PTC 0.20A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="F3">
+      <fields>
+        <field name="Reference">F3</field>
+        <field name="Value">PTC 0.20A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">VEHICLE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V_switched" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="CANH" type="passive"/>
+        <pin num="4" name="CANL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">KEYBOARD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DATA" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="+5V" type="passive"/>
+        <pin num="5" name="CLOCK" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">MOUSE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="DATA" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="+5V" type="passive"/>
+        <pin num="5" name="CLOCK" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">UPDI</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VTREF_5V" type="passive"/>
+        <pin num="2" name="UPDI" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R12">
+      <fields>
+        <field name="Reference">R12</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R13">
+      <fields>
+        <field name="Reference">R13</field>
+        <field name="Value">5.6k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R14">
+      <fields>
+        <field name="Reference">R14</field>
+        <field name="Value">5.6k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R15">
+      <fields>
+        <field name="Reference">R15</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R16">
+      <fields>
+        <field name="Reference">R16</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R17">
+      <fields>
+        <field name="Reference">R17</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R18">
+      <fields>
+        <field name="Reference">R18</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="TP1">
+      <fields>
+        <field name="Reference">TP1</field>
+        <field name="Value">5V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="TP2">
+      <fields>
+        <field name="Reference">TP2</field>
+        <field name="Value">GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="TP3">
+      <fields>
+        <field name="Reference">TP3</field>
+        <field name="Value">CAN_TX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="TP4">
+      <fields>
+        <field name="Reference">TP4</field>
+        <field name="Value">CAN_RX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">ATtiny1616-SNR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PA4_/_SS" type="bidirectional"/>
+        <pin num="3" name="PA5" type="bidirectional"/>
+        <pin num="4" name="PA6" type="bidirectional"/>
+        <pin num="5" name="PA7" type="bidirectional"/>
+        <pin num="6" name="PB5" type="bidirectional"/>
+        <pin num="7" name="PB4" type="bidirectional"/>
+        <pin num="8" name="PB3" type="bidirectional"/>
+        <pin num="9" name="PB2" type="bidirectional"/>
+        <pin num="10" name="PB1" type="bidirectional"/>
+        <pin num="11" name="PB0" type="bidirectional"/>
+        <pin num="12" name="PC0" type="bidirectional"/>
+        <pin num="13" name="PC1" type="bidirectional"/>
+        <pin num="14" name="PC2" type="bidirectional"/>
+        <pin num="15" name="PC3" type="bidirectional"/>
+        <pin num="16" name="PA0_/_UPDI" type="bidirectional"/>
+        <pin num="17" name="PA1_/_MOSI" type="bidirectional"/>
+        <pin num="18" name="PA2_/_MISO" type="bidirectional"/>
+        <pin num="19" name="PA3_/_SCK" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">MCP2515-I/SO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="TXCAN" type="output"/>
+        <pin num="2" name="RXCAN" type="input"/>
+        <pin num="3" name="CLKOUT" type="output"/>
+        <pin num="4" name="TX0RTS_N" type="input"/>
+        <pin num="5" name="TX1RTS_N" type="input"/>
+        <pin num="6" name="TX2RTS_N" type="input"/>
+        <pin num="7" name="OSC2" type="input"/>
+        <pin num="8" name="OSC1" type="input"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="RX1BF_N" type="output"/>
+        <pin num="11" name="RX0BF_N" type="output"/>
+        <pin num="12" name="INT_N" type="output"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SI" type="input"/>
+        <pin num="15" name="SO" type="output"/>
+        <pin num="16" name="CS_N" type="input"/>
+        <pin num="17" name="RESET_N" type="input"/>
+        <pin num="18" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="U3">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">TJA1055T/2Z</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="INH" type="output"/>
+        <pin num="2" name="TXD" type="input"/>
+        <pin num="3" name="RXD" type="output"/>
+        <pin num="4" name="ERR_N" type="output"/>
+        <pin num="5" name="STB" type="input"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="WAKE_N" type="input"/>
+        <pin num="8" name="RTH" type="passive"/>
+        <pin num="9" name="RTL" type="passive"/>
+        <pin num="10" name="VCC" type="power_in"/>
+        <pin num="11" name="CANH" type="passive"/>
+        <pin num="12" name="CANL" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="BAT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="U4">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">TSR 1-2450</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+5V" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="ps2-can" part="Y1">
+      <fields>
+        <field name="Reference">Y1</field>
+        <field name="Value">16MHz CL18pF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ps2-can">
+      <uri>${KIPRJMOD}/ps2-can.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="VTREF_5V_1" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="VDD_18" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="TX0RTS_N_4" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="TX1RTS_N_5" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="TX2RTS_N_6" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="VCC_10" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="+5V_3" pintype="power_out"/>
+    </net>
+    <net code="2" name="/12V_FUSED" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/12V_SW" class="Default">
+      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="+12V_switched_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/ACT_ANODE" class="Default">
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/ACT_LED" class="Default">
+      <node ref="R18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PB0_11" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/CANH" class="Default">
+      <node ref="J1" pin="3" pinfunction="CANH_3" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="CANH_11" pintype="passive"/>
+    </net>
+    <net code="7" name="/CANL" class="Default">
+      <node ref="J1" pin="4" pinfunction="CANL_4" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="CANL_12" pintype="passive"/>
+    </net>
+    <net code="8" name="/CAN_EN" class="Default">
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PB3_8" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="EN_6" pintype="input"/>
+    </net>
+    <net code="9" name="/CAN_ERR_N" class="Default">
+      <node ref="U1" pin="10" pinfunction="PB1_10" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="ERR_N_4" pintype="output"/>
+    </net>
+    <net code="10" name="/CAN_INT_N" class="Default">
+      <node ref="U1" pin="3" pinfunction="PA5_3" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="INT_N_12" pintype="output"/>
+    </net>
+    <net code="11" name="/CAN_RESET_N" class="Default">
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="RESET_N_17" pintype="input"/>
+    </net>
+    <net code="12" name="/CAN_RX" class="Default">
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="RXCAN_2" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="RXD_3" pintype="output"/>
+    </net>
+    <net code="13" name="/CAN_STB" class="Default">
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PB2_9" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="STB_5" pintype="input"/>
+    </net>
+    <net code="14" name="/CAN_TX" class="Default">
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="TXCAN_1" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="TXD_2" pintype="input"/>
+    </net>
+    <net code="15" name="/CS_N" class="Default">
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PA4_/_SS_2" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="CS_N_16" pintype="input"/>
+    </net>
+    <net code="16" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="K2_2" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="K2_2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="K2_2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="K2_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="GND_20" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="VSS_9" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="17" name="/K_5V" class="Default">
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="+5V_4" pintype="passive"/>
+    </net>
+    <net code="18" name="/K_CLK" class="Default">
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PA6_4" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/K_CLK_EXT" class="Default">
+      <node ref="D6" pin="1" pinfunction="K1_1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="CLOCK_5" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="20" name="/K_DATA" class="Default">
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PA7_5" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/K_DATA_EXT" class="Default">
+      <node ref="D5" pin="1" pinfunction="K1_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="DATA_1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="22" name="/MISO" class="Default">
+      <node ref="U1" pin="18" pinfunction="PA2_/_MISO_18" pintype="bidirectional"/>
+      <node ref="U2" pin="15" pinfunction="SO_15" pintype="output"/>
+    </net>
+    <net code="23" name="/MOSI" class="Default">
+      <node ref="U1" pin="17" pinfunction="PA1_/_MOSI_17" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="SI_14" pintype="input"/>
+    </net>
+    <net code="24" name="/M_5V" class="Default">
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="+5V_4" pintype="passive"/>
+    </net>
+    <net code="25" name="/M_CLK" class="Default">
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PB5_6" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/M_CLK_EXT" class="Default">
+      <node ref="D8" pin="1" pinfunction="K1_1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="CLOCK_5" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="27" name="/M_DATA" class="Default">
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PB4_7" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/M_DATA_EXT" class="Default">
+      <node ref="D7" pin="1" pinfunction="K1_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="DATA_1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="29" name="/OSC1" class="Default">
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="OSC1_8" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="30" name="/OSC2" class="Default">
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="OSC2_7" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="31" name="/PWR_LED" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="32" name="/RTH" class="Default">
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="RTH_8" pintype="passive"/>
+    </net>
+    <net code="33" name="/RTL" class="Default">
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="RTL_9" pintype="passive"/>
+    </net>
+    <net code="34" name="/SCK" class="Default">
+      <node ref="U1" pin="19" pinfunction="PA3_/_SCK_19" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="SCK_13" pintype="input"/>
+    </net>
+    <net code="35" name="/UPDI" class="Default">
+      <node ref="J4" pin="2" pinfunction="UPDI_2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PA0_/_UPDI_16" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/VBAT" class="Default">
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="BAT_14" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+    </net>
+    <net code="37" name="/WAKE_N" class="Default">
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="WAKE_N_7" pintype="input"/>
+    </net>
+    <net code="38" name="unconnected-(J2-NC-Pad2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J2-NC-Pad6)" class="Default">
+      <node ref="J2" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J3-NC-Pad2)" class="Default">
+      <node ref="J3" pin="2" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J3-NC-Pad6)" class="Default">
+      <node ref="J3" pin="6" pinfunction="NC_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-PC0-Pad12)" class="Default">
+      <node ref="U1" pin="12" pinfunction="PC0_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-PC1-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="PC1_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-PC2-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="PC2_14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-PC3-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="PC3_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U2-CLKOUT-Pad3)" class="Default">
+      <node ref="U2" pin="3" pinfunction="CLKOUT_3" pintype="output+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U2-RX0BF_N-Pad11)" class="Default">
+      <node ref="U2" pin="11" pinfunction="RX0BF_N_11" pintype="output+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U2-RX1BF_N-Pad10)" class="Default">
+      <node ref="U2" pin="10" pinfunction="RX1BF_N_10" pintype="output+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U3-INH-Pad1)" class="Default">
+      <node ref="U3" pin="1" pinfunction="INH_1" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
